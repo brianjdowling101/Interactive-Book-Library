@@ -1,4 +1,4 @@
-// === Quiz Questions ===
+// === Quiz Questions. ===
 const quizData = [
     { question: "What is the capital of Australia?", options: ["Sydney", "Melbourne", "Canberra", "Perth"], answer: 2 },
     { question: "What is the capital of Canada?", options: ["Toronto", "Vancouver", "Montreal", "Ottawa"], answer: 3 },
