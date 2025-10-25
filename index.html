@@ -1,28 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- The DOCTYPE and <html> tag define this as an HTML5 document -->
 
 <head>
-    <!-- Sets the character encoding to UTF-8 for proper text display -->
-    <meta charset="UTF-8">
-
-    <!-- Ensures the page scales properly on all devices -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Compatibility mode for Internet Explorer -->
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <!-- The title of the web page, shown in the browser tab -->
-    <title>HTML 5 Boilerplate</title>
+    <!-- Basic page setup -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Where In The World?</title>
 
     <!-- Link to the external CSS file for styling -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <!-- Your website content will go here -->
+    <!-- Main page heading -->
+    <h1>🌍 Where In The World?</h1>
 
-    <!-- Link to the external JavaScript file -->
-    <script src="index.js"></script>
+    <!-- Quiz container -->
+    <div class="quiz-container">
+        <div id="question-container">
+            <div class="question" id="question"></div>
+            <div class="options" id="options"></div>
+        </div>
+
+        <button id="next-btn">Next</button>
+        <div id="result"></div>
+    </div>
+
+    <!-- Link to your JavaScript file -->
+    <script src="scripts.js"></script>
 </body>
 
 </html>

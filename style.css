@@ -1,0 +1,72 @@
+/* === General Page Styles === */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #74ABE2, #5563DE);
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 40px;
+}
+
+/* === Quiz Container === */
+.quiz-container {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    width: 90%;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* === Question and Options === */
+.question {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button.option {
+    background: #fff;
+    color: #333;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button.option:hover {
+    background: #ffd54f;
+}
+
+/* === Next Button === */
+#next-btn {
+    background: #00c853;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 15px;
+    display: none;
+}
+
+#next-btn:hover {
+    background: #00a844;
+}
+
+/* === Result Text === */
+#result {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
